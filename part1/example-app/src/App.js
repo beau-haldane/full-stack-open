@@ -1,34 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const App = () => {
-  const name = 'Peter'
-  const age = 10
-
+  const [ counter, setCounter ] = useState(0)
+  setTimeout(    () => setCounter(counter + 1),    1000  )
   return (
-    <>
-      <h1>Greetings</h1>
-      <Hello name="Maya" age={26 + 10} />
-      <Hello name={name} age={age} />
-      <Footer />
-    </>
-  )
-}
-
-const Hello = (props) => {
-  return (
-    <div id = "hello">
-      <p>
-        Hello {props.name}, you are {props.age} years old
-      </p>
-    </div>
-  )
-}
-
-const Footer = () => {
-  return (
-    <div id = "footer">
-      greeting app created by <a href="https://github.com/mluukkai">mluukkai</a>
-    </div>
+    <div>{counter}</div>
   )
 }
 
