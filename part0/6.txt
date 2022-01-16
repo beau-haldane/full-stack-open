@@ -1,0 +1,9 @@
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: 201 created
+
+
+note over browser:
+'formsubmit' event handler calls e.preventDefault()
+event handler creates a new note and pushes it to the 'notes' array
+browser executes the event handler that renders notes to display
+end note
