@@ -9,3 +9,7 @@ Finishing the day on part 1c of the course. Got up to 'Stateful Component' and a
 https://fullstackopen.com/en/part1/component_state_event_handlers
 
 Will try again tomorrow.
+
+**Monday Jan 17, 2022**
+
+Continued working through part 1c. Beginning to understand useState. Taking notes in a workbook for future reference.
