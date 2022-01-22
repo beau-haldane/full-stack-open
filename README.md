@@ -21,3 +21,7 @@ Feeling like I have a solid understanding of useState now. Taken some thorough n
 **Wednesday Jan 19, 2022**
 
 Finished all of part 1. The exercises were quite challenging, but extremely satisfying to overcome. Making a small start on part 2 tonight. Watched 3 videos about functional programming and I'm already excited to learn more. Figured out why git isn't logging my commits.
+
+**Saturday Jan 22, 2022**
+
+Finished part 2a, retrieving data from much more complex data structures like hashes within arrays. Seeing the app as a web page as opposed to in the terminal is really cool. Loving it!
