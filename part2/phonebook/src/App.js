@@ -5,7 +5,7 @@ import Search from './components/Search'
 
 const App = () => {
 
-    // ----- States ----- //
+  // ----- States ----- //
     
   const [persons, setPersons] = useState([
     { name: 'Arto Hellas', number: '040-123456', id: 1 },

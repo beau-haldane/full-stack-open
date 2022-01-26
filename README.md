@@ -27,3 +27,5 @@ Finished part 2a, retrieving data from much more complex data structures like ha
 **Wednesday Jan 26, 2022**
 
 Working on the exercises at the end of part 2b. I'm up to exercise 2.8 but don't have the time or focus right now to complete it. There's a lot of confusing event handling going on with the forms that are being used. Will need to do some solid revision on this part.
+
+Edit: Came back to the exercises of part 2b and manage to finish them off this evening.
