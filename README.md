@@ -6,8 +6,6 @@ Started the day by setting up this git repo. Learning to use git again.
 
 Finishing the day on part 1c of the course. Got up to 'Stateful Component' and am having trouble making much sense of it!
 
-https://fullstackopen.com/en/part1/component_state_event_handlers
-
 Will try again tomorrow.
 
 **Monday Jan 17, 2022**
@@ -25,3 +23,7 @@ Finished all of part 1. The exercises were quite challenging, but extremely sati
 **Saturday Jan 22, 2022**
 
 Finished part 2a, retrieving data from much more complex data structures like hashes within arrays. Seeing the app as a web page as opposed to in the terminal is really cool. Loving it!
+
+**Wednesday Jan 26, 2022**
+
+Working on the exercises at the end of part 2b. I'm up to exercise 2.8 but don't have the time or focus right now to complete it. There's a lot of confusing event handling going on with the forms that are being used. Will need to do some solid revision on this part.
