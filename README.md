@@ -33,3 +33,5 @@ Edit: Came back to the exercises of part 2b and managed to finish them off this 
 **Tuesday February 1, 2022**
 
 Half way through the exercises in 2c "Getting data from server". Pulling in API data and allowing users to search through it. Very useful!
+
+Came back to the challenges after rehearsal. Managed to complete 2.13 to a working standard, but I'm not happy with how easily the navigation breaks. Feels like I've got too much code - it's not simple enough.
