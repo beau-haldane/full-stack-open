@@ -1,21 +1,32 @@
-import React, { useState } from 'react'
-import Numbers from './components/Numbers'
-import AddNew from './components/AddNew'
-import Search from './components/Search'
+import React, { useState, useEffect }  from 'react'
+import Numbers              from './components/Numbers'
+import AddNew               from './components/AddNew'
+import Search               from './components/Search'
+import axios from 'axios'
 
 const App = () => {
 
   // ----- States ----- //
     
   const [persons, setPersons] = useState([
-    { name: 'Arto Hellas', number: '040-123456', id: 1 },
-    { name: 'Ada Lovelace', number: '39-44-5323523', id: 2 },
-    { name: 'Dan Abramov', number: '12-43-234345', id: 3 },
-    { name: 'Mary Poppendieck', number: '39-23-6423122', id: 4 }
+    
   ]) 
   const [newName, setNewName] = useState('')
   const [newNumber, setNewNumber] = useState('')
   const [filter, setFilter] = useState('')
+
+  const hook = () => {
+    console.log('effect')
+    axios
+      .get('http://localhost:3001/persons')
+      .then(response => {
+        console.log('promise fulfilled')
+        setPersons(response.data)
+      })
+  }
+  
+  useEffect(hook, [])
+  console.log('render', persons.length, 'notes')
 
   // ----- Functions -----//
 
@@ -55,11 +66,11 @@ const App = () => {
       <h2>Phonebook</h2>
       <Search filter={filter} handleFilterChange={handleFilterChange} />
       <AddNew 
-        addPersons={addPersons} 
-        newName={newName} 
-        handleNumberChange={handleNumberChange} 
-        handleNameChange={handleNameChange} 
-        newNumber={newNumber} 
+        addPersons          = {addPersons} 
+        newName             = {newName} 
+        handleNumberChange  = {handleNumberChange} 
+        handleNameChange    = {handleNameChange} 
+        newNumber           = {newNumber} 
       />
       <Numbers persons={persons} filter={filter} />
     </div>
