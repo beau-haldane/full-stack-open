@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Numbers = ({persons, filter}) => {
+const Numbers = ({persons, filter, deletePerson}) => {
     return(
         <div>
             <h2>Numbers</h2>
@@ -9,7 +9,10 @@ const Numbers = ({persons, filter}) => {
                 .toLowerCase()
                 .includes(filter.toLowerCase()))
                 .map(person => 
-                <p key={person.name}>{person.name} - {person.number}</p>
+                <p key={person.name}>
+                    {person.name} - {person.number}
+                    <button onClick={() => deletePerson(person.id)}>Delete</button>
+                </p>
                 )
             }
         </div>
