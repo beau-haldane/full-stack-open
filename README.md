@@ -41,3 +41,5 @@ Came back to the challenges after rehearsal. Managed to complete 2.13 to a worki
 Finished Part 2c. Found it challenging to fetch API data using an API key but managed in the end. Had to implement conditional rendering in 'DisplayCountries.js' so that the app wouldn't break while it was still in the process of fetching the weather data. Also figured out that when using variables in an API call URL, I need to use backticks `` and surround the variable with ${} in order for it to work. Lots of learning in this section!
 
 Beginning Part 2d shortly.
+
+Had a very productive day. Finished all of 2d and 2e, ready to move on to part 3!
