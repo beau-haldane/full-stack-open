@@ -2,10 +2,10 @@ import React from 'react'
 import DisplayCountry from './DisplayCountry'
 import DisplayList from './DisplayList';
 
-const Countries = ({countries, country, filter, showCountry, resetSearch}) => {
+const Countries = ({countries, country, filter, showCountry, resetSearch, api_key, weather, setWeather}) => {
     const filteredList = 
         countries
-        .filter(country => country.name.common
+        .filter(filterCountry => filterCountry.name.common
         .toLowerCase()
         .includes(filter.toLowerCase()));
 
@@ -18,7 +18,13 @@ const Countries = ({countries, country, filter, showCountry, resetSearch}) => {
         )
     } else if (Object.keys(country).length > 0){
         return (
-            <DisplayCountry country = {country} resetSearch={resetSearch}/> 
+            <DisplayCountry 
+                country = {country} 
+                resetSearch={resetSearch}
+                api_key={api_key}
+                weather={weather}
+                setWeather={setWeather}
+            /> 
         )  
     } else {
         

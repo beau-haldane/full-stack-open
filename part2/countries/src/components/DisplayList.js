@@ -7,15 +7,15 @@ const DisplayList = ({filteredList, showCountry}) => {
                 {
                     filteredList
                     .map(country => 
-                    <p key={country.name.common}>
-                        {country.name.common}
-                        <button 
-                            onClick={showCountry}
-                            id = {country.name.common}
-                        >
-                            Show More
-                        </button>
-                    </p>
+                        <p key={country.name.common}>
+                            {country.name.common}
+                            <button 
+                                onClick={showCountry}
+                                id = {country.name.common}
+                            >
+                                Show More
+                            </button>
+                        </p>
                     )
                 }
             </div>

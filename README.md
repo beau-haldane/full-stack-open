@@ -35,3 +35,9 @@ Edit: Came back to the exercises of part 2b and managed to finish them off this 
 Half way through the exercises in 2c "Getting data from server". Pulling in API data and allowing users to search through it. Very useful!
 
 Came back to the challenges after rehearsal. Managed to complete 2.13 to a working standard, but I'm not happy with how easily the navigation breaks. Feels like I've got too much code - it's not simple enough.
+
+**Tuesday February 8, 2022**
+
+Finished Part 2c. Found it challenging to fetch API data using an API key but managed in the end. Had to implement conditional rendering in 'DisplayCountries.js' so that the app wouldn't break while it was still in the process of fetching the weather data. Also figured out that when using variables in an API call URL, I need to use backticks `` and surround the variable with ${} in order for it to work. Lots of learning in this section!
+
+Beginning Part 2d shortly.
