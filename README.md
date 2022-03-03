@@ -43,3 +43,10 @@ Finished Part 2c. Found it challenging to fetch API data using an API key but ma
 Beginning Part 2d shortly.
 
 Had a very productive day. Finished all of 2d and 2e, ready to move on to part 3!
+
+**Tuesday March 1**
+
+Finished part 3a, making a simple backend with express. Trying to move into part 3b but I must've misunderstood some of the last part, as my backend is written to work with the phonebook app, not the notes app :(
+
+**Friday March 4**
+Making a renewed push to get this course finished by the end of June. I'm currently at part 3b trying to figure out what's going on with the backend of 'notes'.
