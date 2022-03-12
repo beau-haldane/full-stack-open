@@ -55,3 +55,5 @@ Making a renewed push to get this course finished by the end of June. I'm curren
 I've finally finished part 3b, and moved on to part 3c. It's becom evident that the folder structure I've chosen isn't working extremely well, so I'm trying to restructure them to make more sense. It's super complicated with git though, and I keep fucking up and having to undo mistakes (usually deletions)
 
 I'm in COVID-iso for another 5 days, so hopefully I'll get a good productive push out of this time.
+
+Finishing up today part way through part 3c, I'm currently setting up a MongoDB account, awaiting the cluster to be ready so that I can finish the setup process.

@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 import noteService from './services/notes'
 
 const App = () => {
+  
 // -- States -- //
   const [notes, setNotes] = useState([])
   const [newNote, setNewNote] = useState('')
