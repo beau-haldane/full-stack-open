@@ -50,3 +50,8 @@ Finished part 3a, making a simple backend with express. Trying to move into part
 
 **Friday March 4**
 Making a renewed push to get this course finished by the end of June. I'm currently at part 3b trying to figure out what's going on with the backend of 'notes'.
+
+**Saturday March 12**
+I've finally finished part 3b, and moved on to part 3c. It's becom evident that the folder structure I've chosen isn't working extremely well, so I'm trying to restructure them to make more sense. It's super complicated with git though, and I keep fucking up and having to undo mistakes (usually deletions)
+
+I'm in COVID-iso for another 5 days, so hopefully I'll get a good productive push out of this time.

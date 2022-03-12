@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Note from './components/Note'
 import Notification from './components/Notification'
+import Footer from './components/Footer'
 import noteService from './services/notes'
 
 const App = () => {
@@ -8,7 +9,7 @@ const App = () => {
   const [notes, setNotes] = useState([])
   const [newNote, setNewNote] = useState('')
   const [showAll, setShowAll] = useState(true)
-  const [errorMessage, setErrorMessage] = useState('some error happened...')
+  const [errorMessage, setErrorMessage] = useState(null)
 
 // -- Back-End Communication -- //
 
@@ -21,7 +22,7 @@ const App = () => {
   }, [])
 
   const toggleImportanceOf = id => {
-    const url = `http://localhost:3001/api/notes/${id}`
+    const url = `https://intense-oasis-69175.herokuapp.com/api/notes/${id}`
     const note = notes.find(n => n.id === id)
     const changedNote = { ...note, important: !note.important }
   
@@ -66,20 +67,6 @@ const App = () => {
   const notesToShow = showAll
     ? notes
     : notes.filter(note => note.important)
-
-    const Footer = () => {
-      const footerStyle = {
-        color: 'green',
-        fontStyle: 'italic',
-        fontSize: 16
-      }
-      return (
-        <div style={footerStyle}>
-          <br />
-          <em>Note app, Department of Computer Science, University of Helsinki 2021</em>
-        </div>
-      )
-    }
 
 
   // -- Website -- //
