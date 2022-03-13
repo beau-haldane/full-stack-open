@@ -57,3 +57,6 @@ I've finally finished part 3b, and moved on to part 3c. It's becom evident that 
 I'm in COVID-iso for another 5 days, so hopefully I'll get a good productive push out of this time.
 
 Finishing up today part way through part 3c, I'm currently setting up a MongoDB account, awaiting the cluster to be ready so that I can finish the setup process.
+
+**Sunday March 13**
+Continuing on from yesterday, I've now got MongoDB up and running and have been successfully adding new database entries, as well as retrieving them with the .save and .find functions respectively. I am about to implement MongoDB into my Notes application after taking a short break.
