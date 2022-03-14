@@ -88,20 +88,22 @@ const App = () => {
       // Add new person
       console.log(`${personObject.name} added`);
       personService
-      .create(personObject)
-      .then(response => {
-        setPersons(persons.concat(response.data))
-      })
-
-      // Display person added notification
-
-      setNotificationMessage(
-        `${personObject.name} added`
-      )
-      setTimeout(() => {
-        setNotificationMessage(null)
-      }, 5000)
- 
+        .create(personObject)
+        .then(response => {
+          setPersons(persons.concat(response.data))
+          setNotificationMessage(
+            `${personObject.name} added`
+          )
+          setTimeout(() => {
+            setNotificationMessage(null)
+          }, 5000)
+        })
+        .catch(error => {
+          setErrorMessage(error.response.data.error)
+          setTimeout(() => {
+            setErrorMessage(null)
+          }, 5000);
+        })
     }
     setNewName('')
     setNewNumber('')

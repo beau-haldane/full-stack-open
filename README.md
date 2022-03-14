@@ -62,3 +62,10 @@ Finishing up today part way through part 3c, I'm currently setting up a MongoDB 
 Continuing on from yesterday, I've now got MongoDB up and running and have been successfully adding new database entries, as well as retrieving them with the .save and .find functions respectively. I am about to implement MongoDB into my Notes application after taking a short break.
 
 Continued after a short break. I've just separated the MongoDB code into a separate module, and added a .env file to store sensitive info, as well as adding config vars to heroku. I'm up to 'Database configuration into its own module' in part 3c.
+
+**Monday March 14**
+Managed to grind my way through all of part 3c and part 3c today. Finally up to part 4! I've got an app fully deployed on heroku and mongodb with a decent amount of error handling, and I've linted the code for the app.
+
+Today I had some good success using a pomodoro timer app, https://pomofocus.io/
+
+I think I'll use it again tomorrow!
