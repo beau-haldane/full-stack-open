@@ -49,9 +49,11 @@ Had a very productive day. Finished all of 2d and 2e, ready to move on to part 3
 Finished part 3a, making a simple backend with express. Trying to move into part 3b but I must've misunderstood some of the last part, as my backend is written to work with the phonebook app, not the notes app :(
 
 **Friday March 4**
+
 Making a renewed push to get this course finished by the end of June. I'm currently at part 3b trying to figure out what's going on with the backend of 'notes'.
 
 **Saturday March 12**
+
 I've finally finished part 3b, and moved on to part 3c. It's becom evident that the folder structure I've chosen isn't working extremely well, so I'm trying to restructure them to make more sense. It's super complicated with git though, and I keep fucking up and having to undo mistakes (usually deletions)
 
 I'm in COVID-iso for another 5 days, so hopefully I'll get a good productive push out of this time.
@@ -59,11 +61,13 @@ I'm in COVID-iso for another 5 days, so hopefully I'll get a good productive pus
 Finishing up today part way through part 3c, I'm currently setting up a MongoDB account, awaiting the cluster to be ready so that I can finish the setup process.
 
 **Sunday March 13**
+
 Continuing on from yesterday, I've now got MongoDB up and running and have been successfully adding new database entries, as well as retrieving them with the .save and .find functions respectively. I am about to implement MongoDB into my Notes application after taking a short break.
 
 Continued after a short break. I've just separated the MongoDB code into a separate module, and added a .env file to store sensitive info, as well as adding config vars to heroku. I'm up to 'Database configuration into its own module' in part 3c.
 
 **Monday March 14**
+
 Managed to grind my way through all of part 3c and part 3c today. Finally up to part 4! I've got an app fully deployed on heroku and mongodb with a decent amount of error handling, and I've linted the code for the app.
 
 Today I had some good success using a pomodoro timer app, https://pomofocus.io/
