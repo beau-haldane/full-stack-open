@@ -73,3 +73,9 @@ Managed to grind my way through all of part 3c and part 3c today. Finally up to 
 Today I had some good success using a pomodoro timer app, https://pomofocus.io/
 
 I think I'll use it again tomorrow!
+
+**Tuesday March 15**
+
+Managed to work my way through part 4a today - solid progress! Today I went through restructuring the backend of the notes app, then creating a new working backend from a supplied index.js file of a blog-list application. Rebuilding the backend from just the index file was super challenging, but definitely helped my understanding of importing and exporting components.
+
+After that, I wrote some custom tests for the new blog-list backend which was really tedious, but actually really fun as it is basically just a lot of problem solving. Managed to get all tests to pass and output exactly what was expected. I'm done for today I think!
