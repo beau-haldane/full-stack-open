@@ -6,7 +6,8 @@ const dummy = (blogs) => {
 
 // -- Total likes across all blogs -- //
 const totalLikes = (blogs) => {
-  const totalAmount = blogs.reduce (function(sum, blog) {
+  
+  const totalAmount = blogs.reduce((sum, blog) => {
     return sum + blog.likes
   }, 0)
 
@@ -15,10 +16,7 @@ const totalLikes = (blogs) => {
 
 // -- Info about blog with most likes -- //
 const favouriteBlog = (blogs) => {
-  
-  const mostLikes = Math.max(...blogs.map(function(o) { return o.likes; }))
-
-  const favourite = blogs[blogs.map( blog => blog.likes ).indexOf(mostLikes)]
+  const favourite = blogs.reduce((p, c) => p.likes >= c.likes ? p : c)
 
   return {
     title: favourite.title,

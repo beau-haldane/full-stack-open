@@ -79,3 +79,11 @@ I think I'll use it again tomorrow!
 Managed to work my way through part 4a today - solid progress! Today I went through restructuring the backend of the notes app, then creating a new working backend from a supplied index.js file of a blog-list application. Rebuilding the backend from just the index file was super challenging, but definitely helped my understanding of importing and exporting components.
 
 After that, I wrote some custom tests for the new blog-list backend which was really tedious, but actually really fun as it is basically just a lot of problem solving. Managed to get all tests to pass and output exactly what was expected. I'm done for today I think!
+
+**Thursday April 21**
+
+It's been over a month since I last had a look at Full Stack Open. I've been busy working on a new small business doing web design, but I am unsure as to the future of the business, so I'm pushing forward with the course as this is something I'm much more passionate about.
+
+Today I managed to finish section 4b - testing the backend. I set up a more robust testing environment, changing environment variables, installed and used supertest, set up a test database in MongoDB, wrote my tests and routes using async/await instead of promises, some backend refactoring to make everything more sensical, and then applied all of that to my own blog-list application. I thought I was stumped on challenge 4.14 rewriting the HTTP router for PUT requests using async/awaits, but it was actually some very simple syntactical issues in the end *phew*.
+
+On to 4c tomorrow.

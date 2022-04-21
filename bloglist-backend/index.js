@@ -7,9 +7,6 @@ const blogsRouter = require('./controllers/blogs')
 
 const server = http.createServer(app)
 
-
-
-
 // -- Run Server -- //
 server.listen(config.PORT, () => {
   logger.info(`Server running on port ${config.PORT}`)
