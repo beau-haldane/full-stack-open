@@ -1,8 +1,10 @@
 post http://localhost:3003/api/blogs
 Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InN1cGVydXNlciIsImlkIjoiNjI2NGUzMDFmMzQ2MDdlMmZhYmRhNDY2IiwiaWF0IjoxNjUwNzc4OTMzfQ.ixScVasld447ji32e_7TISG50uRcEiKGDS_R-0zl6eM
 
 {
-  "title": "Some Blog",
-  "author": "Viccy",
-  "url": "www.vicsblog.com"
+  "title": "Super Hans' Blog",
+  "author": "Super Hans",
+  "url": "www.hansblog.com",
+  "likes": 5000000000
 }

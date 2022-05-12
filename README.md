@@ -87,3 +87,15 @@ It's been over a month since I last had a look at Full Stack Open. I've been bus
 Today I managed to finish section 4b - testing the backend. I set up a more robust testing environment, changing environment variables, installed and used supertest, set up a test database in MongoDB, wrote my tests and routes using async/await instead of promises, some backend refactoring to make everything more sensical, and then applied all of that to my own blog-list application. I thought I was stumped on challenge 4.14 rewriting the HTTP router for PUT requests using async/awaits, but it was actually some very simple syntactical issues in the end *phew*.
 
 On to 4c tomorrow.
+
+**Tuesday May 10**
+
+I must have forgotten to log diary entries after the last one in April - I have now finished section 4 and am moving on to section 5. I've been much less focused than I would like with coding. I have been distracted with work, life, and mental health. I'm going to attempt to be more frequent with my studies even in situations where I may only have 1-2 hours spare.
+
+Starting section 5a 'login in frontend' today.
+
+**Thursday May 12**
+
+Finished off section 5a today! Also found a bug that was preventing my note app and blog app from re-rendering when a new blog or note was added using a POST request from axios. I was returning the 'response.data' from the HTTP request, and then attempting to concatenate the 'response.data' to the state which contained the array of stored blogs/notes. I was specifying 'response.data' once, and then again at the point of concatenation, so I changed the return from the POST request to just 'response' and then specified 'response.data' at the point of concatenation, which made react happy and allowed it to re-render the list of notes/blogs without having to refresh the page. Finding and fixing bugs is really where I'm learning the most, even though they are incredibly frustrating and seemingly impossible!.
+
+On to section 5b next.
