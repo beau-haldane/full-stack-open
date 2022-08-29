@@ -99,3 +99,15 @@ Starting section 5a 'login in frontend' today.
 Finished off section 5a today! Also found a bug that was preventing my note app and blog app from re-rendering when a new blog or note was added using a POST request from axios. I was returning the 'response.data' from the HTTP request, and then attempting to concatenate the 'response.data' to the state which contained the array of stored blogs/notes. I was specifying 'response.data' once, and then again at the point of concatenation, so I changed the return from the POST request to just 'response' and then specified 'response.data' at the point of concatenation, which made react happy and allowed it to re-render the list of notes/blogs without having to refresh the page. Finding and fixing bugs is really where I'm learning the most, even though they are incredibly frustrating and seemingly impossible!.
 
 On to section 5b next.
+
+**Monday August 29**
+
+Back in the coding hotseat for the past couple of days. I've been encountering yet another issue with getting my ./part2/notes/ frontend to work. I had two main issues.
+
+Issue 1) In /services/login.js I did not have the export for the 'login' const surrounded by curly brackets. This meant that when the code came to execute the 'handleLogin' function in App.js, it did not have access to 'loginServices' and so it was immediately pushing the code to the error exception handler
+
+^Actually on further inspection, I'm unable to recreate this issue, so I'm still unsure what the issue really was.
+
+Issue 2) In /services/notes.js, in the create function, I was returning 'response' only instead of 'response.data'
+
+Now finished the walkthroughs for 5b, about to start exercise 5.5
