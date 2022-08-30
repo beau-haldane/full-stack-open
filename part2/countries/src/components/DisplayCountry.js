@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import axios                from 'axios'
+import axios from 'axios'
 
 const DisplayCountry = ({country, resetSearch, api_key, weather, setWeather}) => {
-    // console.log(weather.name===country.capital[0]);
     const getWeatherData = () => {
         axios
           .get(`https://api.openweathermap.org/data/2.5/weather?lat=${country.capitalInfo.latlng[0]}&lon=${country.capitalInfo.latlng[1]}&appid=${api_key}&units=metric`)

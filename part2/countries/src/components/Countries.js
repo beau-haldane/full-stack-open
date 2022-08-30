@@ -13,7 +13,7 @@ const Countries = ({countries, country, filter, showCountry, resetSearch, api_ke
         return(
             <div>
                 <h2>Countries</h2>
-                Too many matches, specify another filter
+                Too many matches, please narrow your search by typing the name of a country.
             </div> 
         )
     } else if (Object.keys(country).length > 0){

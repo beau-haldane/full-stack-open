@@ -1,18 +1,16 @@
 import React, { useState, useEffect } from 'react'
 import Countries                      from './components/Countries'
 import Search                         from './components/Search'
-// import DisplayList                    from './components/DisplayList';
 import axios                          from 'axios'
 
-const App = () => {
-
-  // ----- States ----- //
-      
+const App = () => {    
   const [countries, setCountries] = useState([])
   const [country, setCountry] = useState('')
   const [weather, setWeather] = useState()
   const [filter, setFilter] = useState('')
   const [showMore, setShowMore] = useState(false)
+
+  const api_key = process.env.REACT_APP_API_KEY
 
   const getCountryData = () => {
     axios
@@ -22,11 +20,6 @@ const App = () => {
       })
   }
   useEffect(getCountryData, [])
- 
-  const api_key = process.env.REACT_APP_API_KEY
-  
-
-   // ----- Functions -----//
 
   const showCountry = (event) => {
     const selectedCountry = countries.filter(filterCountry => filterCountry.name.common === event.target.id)
@@ -44,8 +37,6 @@ const App = () => {
     setFilter(event.target.value)
   }
 
-  // ----- Website ----- //
-
   return (
     <div>
       <Search 
@@ -61,8 +52,6 @@ const App = () => {
         api_key={api_key}
         weather={weather}
         setWeather={setWeather}
-
-        // setWeather={setWeather}
       />
     </div>
   );
