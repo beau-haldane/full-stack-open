@@ -111,3 +111,16 @@ Issue 1) In /services/login.js I did not have the export for the 'login' const s
 Issue 2) In /services/notes.js, in the create function, I was returning 'response' only instead of 'response.data'
 
 Now finished the walkthroughs for 5b, about to start exercise 5.5
+
+**Tuesday August 30**
+
+Took a break from course content to work on my portfolio today. Digging through some old react projects from this course and looking ahead to see which projects I'll be wrapping up soon.
+
+I'm going to include the Countries app as it takes data from external APIs. I've designed a nice UI in Figma and now I'm attempting to learn how to style the app.
+
+It looks like the Blogs app will be wrapping up at the end of part 7 and a bunch of awesome features will be added by that time, which will make for a nice portfolio piece! Perhaps once that's done I'll attempt to make my recipe app
+
+**Wednesday August 31**
+
+Beginning the process of styling the Countries app to match my UI Design in Figma.
+

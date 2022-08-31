@@ -1,25 +1,20 @@
 import React from 'react'
 
 const DisplayList = ({filteredList, showCountry}) => {
-    return(
-        <div>
-                <h2>Countries</h2>
-                {
-                    filteredList
-                    .map(country => 
-                        <p key={country.name.common}>
-                            {country.name.common}
-                            <button 
-                                onClick={showCountry}
-                                id = {country.name.common}
-                            >
-                                Show More
-                            </button>
-                        </p>
-                    )
-                }
-            </div>
-    )
+  
+  return(
+    <div>
+      {filteredList
+        .map(country => 
+          <p className="country-result" key={country.name.common}>
+            <button className="country-button" onClick={showCountry} id={country.name.common}>
+              {country.name.common}
+            </button>
+          </p>
+        )
+      }
+    </div>
+  )
 }
 
 export default DisplayList

@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Countries                      from './components/Countries'
+import Footer                         from './components/Footer'
+import Header                         from './components/Header'
 import Search                         from './components/Search'
 import axios                          from 'axios'
 
@@ -8,6 +10,7 @@ const App = () => {
   const [country, setCountry] = useState('')
   const [weather, setWeather] = useState()
   const [filter, setFilter] = useState('')
+  const [showSearch, setShowSearch] = useState(true)
   const [showMore, setShowMore] = useState(false)
 
   const api_key = process.env.REACT_APP_API_KEY
@@ -27,10 +30,12 @@ const App = () => {
     setCountry(
        selectedCountry[0]
     )
+    setShowSearch(false)
   }
 
   const resetSearch = (event) => {
     setCountry('')
+    setShowSearch(true)
   }
 
   const handleFilterChange = (event) => {
@@ -38,21 +43,28 @@ const App = () => {
   }
 
   return (
-    <div>
-      <Search 
-        filter={filter} 
-        handleFilterChange={handleFilterChange} 
-      />
-      <Countries 
-        countries={countries} 
-        country={country} 
-        filter={filter} 
-        showCountry={showCountry} 
-        resetSearch={resetSearch}
-        api_key={api_key}
-        weather={weather}
-        setWeather={setWeather}
-      />
+    <div className="container">
+      <Header />
+      <div className ="search-container">
+        <Search 
+          filter={filter} 
+          handleFilterChange={handleFilterChange} 
+          showSearch={showSearch}
+        />
+        <div id="drop-shadow" className="results-container">
+          <Countries 
+            countries={countries} 
+            country={country} 
+            filter={filter} 
+            showCountry={showCountry} 
+            resetSearch={resetSearch}
+            api_key={api_key}
+            weather={weather}
+            setWeather={setWeather}
+          />
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 }
