@@ -124,3 +124,6 @@ It looks like the Blogs app will be wrapping up at the end of part 7 and a bunch
 
 Beginning the process of styling the Countries app to match my UI Design in Figma.
 
+After about 5 hours of work, I've successfully styled my app to look nearly identical to my Figma file! Learned a lot about how react compiles into HTML, and how to control that with CSS. I now understand why it makes sense to style each component in the component's js file.
+
+About to look into deploying the app somewhere now.
