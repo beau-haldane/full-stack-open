@@ -12,7 +12,7 @@ const DisplayCountry = ({country, resetSearch, api_key, weather, setWeather}) =>
   useEffect(getWeatherData, [])
 
   if (weather===undefined){
-    return <div>Loading...</div>
+    return <div className="extra-padding">Loading...</div>
   }else{
   return(
     <div className="country-info">

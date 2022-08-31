@@ -4,6 +4,7 @@ import Footer                         from './components/Footer'
 import Header                         from './components/Header'
 import Search                         from './components/Search'
 import axios                          from 'axios'
+import {Helmet}                       from "react-helmet";
 
 const App = () => {    
   const [countries, setCountries] = useState([])
@@ -44,6 +45,10 @@ const App = () => {
 
   return (
     <div className="container">
+      <Helmet>
+        <title>Countries Info App</title>
+        <meta name="description" content="Helmet application" />
+      </Helmet>
       <Header />
       <div className ="search-container">
         <Search 
