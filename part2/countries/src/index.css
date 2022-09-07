@@ -149,6 +149,12 @@ a{
   width: 96.4%;
 }
 
+.weather-icon{
+  background-color: #FBFBFB;
+  padding: 20px;
+  border-radius: 10px;
+}
+
 .reset-button{
   padding: 16px 24px 16px 24px;
   font-size: 16px;

@@ -127,3 +127,8 @@ Beginning the process of styling the Countries app to match my UI Design in Figm
 After about 5 hours of work, I've successfully styled my app to look nearly identical to my Figma file! Learned a lot about how react compiles into HTML, and how to control that with CSS. I now understand why it makes sense to style each component in the component's js file.
 
 About to look into deploying the app somewhere now.
+
+**Wednesday September 7**
+
+Back on to part 5. Just completed exercises 5.5 and 5.6. As usual, the concepts make much more sense now that I've been forced to implement them into my own application. Child components make much more sense along with separating state and event handlers into their respective components. Continuing on to exercise 5.7 now.
+

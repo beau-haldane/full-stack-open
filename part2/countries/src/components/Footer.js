@@ -1,4 +1,3 @@
-import {Tooltip, IconButton} from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
 const githubUrl=`https://github.com/beau-haldane/full-stack-open/tree/master/part2/countries`

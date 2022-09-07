@@ -11,6 +11,10 @@ const DisplayCountry = ({country, resetSearch, api_key, weather, setWeather}) =>
   }
   useEffect(getWeatherData, [])
 
+  const commaNumber = (x) => {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  }
+
   if (weather===undefined){
     return <div className="extra-padding">Loading...</div>
   }else{
@@ -20,7 +24,7 @@ const DisplayCountry = ({country, resetSearch, api_key, weather, setWeather}) =>
         <div className="">
           <h3>{country.name.common}</h3>
           <p><b>Capital:</b> {country.capital}</p>
-          <p><b>Population:</b> {country.population}</p>
+          <p><b>Population:</b> {commaNumber(country.population)}</p>
           <p><b>Languages</b></p>
           <ul>
             {
@@ -37,9 +41,10 @@ const DisplayCountry = ({country, resetSearch, api_key, weather, setWeather}) =>
         <div>
           <h3>Weather in {country.capital}</h3>
           <p><b>Temperature:</b> {weather.main.temp} celsius</p>
-          <p><b>Wind:</b> {weather.wind.speed} m/s direction {weather.wind.deg} degrees</p>
+          <p><b>Wind Speed:</b> {weather.wind.speed} m/s</p>
+          <p><b>Wind Direction:</b> {weather.wind.deg} degrees</p>
         </div>
-        <div><img src={`http://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`}></img></div>
+        <div className="weather-icon"><img src={`http://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`}></img></div>
       </div>
       <button className="reset-button" onClick={resetSearch}>Back to Search</button>
     </div>
