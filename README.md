@@ -132,3 +132,6 @@ About to look into deploying the app somewhere now.
 
 Back on to part 5. Just completed exercises 5.5 and 5.6. As usual, the concepts make much more sense now that I've been forced to implement them into my own application. Child components make much more sense along with separating state and event handlers into their respective components. Continuing on to exercise 5.7 now.
 
+Successfully completed exercises 5.7 - 5.10 now, only a couple more to go for section 5b tonight! I now have a working CRUD application with the back-end and front-end nicely integrated (albeit looking pretty crap for now)
+
+Moving on to prop types now. Will try to finish 5b tonight.
