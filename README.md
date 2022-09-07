@@ -135,3 +135,7 @@ Back on to part 5. Just completed exercises 5.5 and 5.6. As usual, the concepts 
 Successfully completed exercises 5.7 - 5.10 now, only a couple more to go for section 5b tonight! I now have a working CRUD application with the back-end and front-end nicely integrated (albeit looking pretty crap for now)
 
 Moving on to prop types now. Will try to finish 5b tonight.
+
+Fully completed section 5b now - the remaining exercises were quite simple and easy to implement - adding prop-types and eslint to the notes app and the bloglist app.
+
+On to 5c next.
