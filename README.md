@@ -139,3 +139,9 @@ Moving on to prop types now. Will try to finish 5b tonight.
 Fully completed section 5b now - the remaining exercises were quite simple and easy to implement - adding prop-types and eslint to the notes app and the bloglist app.
 
 On to 5c next.
+
+**Thursday September 8**
+
+Putting some time into my portfolio today in order to begin applying for jobs. Styling the Blogs app slightly to make for a nicer presentation and proceeding to upload my actual portfolio site. Will continue on to 5c tomorrow.
+
+Have made significant progress on the styling of the Blog List App. Planning to add pagination and a sorting function to sort by recently posted, or by most popular.
