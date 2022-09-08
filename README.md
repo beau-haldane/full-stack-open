@@ -145,3 +145,7 @@ On to 5c next.
 Putting some time into my portfolio today in order to begin applying for jobs. Styling the Blogs app slightly to make for a nicer presentation and proceeding to upload my actual portfolio site. Will continue on to 5c tomorrow.
 
 Have made significant progress on the styling of the Blog List App. Planning to add pagination and a sorting function to sort by recently posted, or by most popular.
+
+**Friday September 9**
+
+Beginning today by trying to clean up App.js by separating blog creation/editing functions into a component of its own. Then I'll focus on pagination and sorting functions.
