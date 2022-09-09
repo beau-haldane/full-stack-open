@@ -149,3 +149,7 @@ Have made significant progress on the styling of the Blog List App. Planning to 
 **Friday September 9**
 
 Beginning today by trying to clean up App.js by separating blog creation/editing functions into a component of its own. Then I'll focus on pagination and sorting functions.
+
+Pagination is now successfully implemented! On to a sorting function to change sorting between new/popular.
+
+Basic sorting functions implemented. Can't fully implement 'sort by new' until I repopulate the DB after adding the date field to MongoDB
