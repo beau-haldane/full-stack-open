@@ -4,7 +4,7 @@ import Footer                         from './components/Footer'
 import Header                         from './components/Header'
 import Search                         from './components/Search'
 import axios                          from 'axios'
-import {Helmet}                       from "react-helmet";
+import {Helmet}                       from "react-helmet"
 
 const App = () => {    
   const [countries, setCountries] = useState([])

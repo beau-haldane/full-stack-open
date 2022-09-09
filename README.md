@@ -153,3 +153,5 @@ Beginning today by trying to clean up App.js by separating blog creation/editing
 Pagination is now successfully implemented! On to a sorting function to change sorting between new/popular.
 
 Basic sorting functions implemented. Can't fully implement 'sort by new' until I repopulate the DB after adding the date field to MongoDB
+
+Populated the DB with new blog posts, now the date fields are all populated and I could finish the sorting function. All main features are implemented, I'm now going to finish up documentation and deploy :)
